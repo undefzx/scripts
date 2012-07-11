@@ -1,0 +1,11 @@
+
+.some_class a { 
+	background-color: #FFFFFF; 
+	color: #eeddcc; 
+}
+input.submit { 
+	color: #ffffff; 
+	background: #d24444; 
+	border: 1px solid #d24444 - #222222; 
+	padding: 5px 12px; 
+}
