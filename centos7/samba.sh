@@ -24,4 +24,4 @@ setsebool -P samba_enable_home_dirs on
 chcon -t samba_share_t /home/deploy/
 systemctl restart smb.service
 systemctl restart nmb.service
-
+smbpasswd -a deploy
